@@ -1,0 +1,17 @@
+# Object creation to teacher class
+from teacher import*
+t=teacher()
+t.setid(125)
+t.setname('venkat')
+t.setage(25)
+t.setheight('5.9 Inch')
+t.setweight("75kg")
+t.setaddress('1-69,chembadipalem,gudur,nellore,AP-524101')
+t.setsalory(45623.52)
+print('idno=',t.getid())
+print('name=',t.getname())
+print('age=',t.getage())
+print('height=',t.getheight())
+print('weight=',t.getweight())
+print('address=',t.getaddress())
+print('salory=',t.getsalory())
