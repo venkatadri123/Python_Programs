@@ -6,7 +6,7 @@ target = 10
 
 
 for i, item inenumerate(numbers):
-	for j in range(i+1, len(numbers)):
+    for j in range(i+1, len(numbers)):
     	total_of_two_items = numbers[i] + numbers[j]
     	if(total_of_two_items == total_number):
         	print'{first_item} {second_item}'.format(first_item=i+1, second_item=j+1)
