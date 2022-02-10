@@ -1,4 +1,4 @@
-*args and **kwargs
+# *args and **kwargs
 
 
 integer_array = [2, 8, 4, 7, 9, 5, 1]
@@ -13,7 +13,9 @@ for i, item inenumerate(numbers):
         	print'\n'
 
 
+'''
 SELECT DeptName, MAX(Salary) 
 FROM Employee e RIGHT JOIN Department d 
 ON e.DeptId = d.DeptID 
 GROUP BY DeptName;
+'''
